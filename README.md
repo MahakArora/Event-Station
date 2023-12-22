@@ -1,17 +1,31 @@
-# newsletter
-deployment is of frontend part only... Backend is a dummy one.
-DEPLOYEMENT  :https://newslettersproject.netlify.app/
+# Events Stations
 
+Welcome to the Event Stations Project! We can 
+- add new events
+- delete events
+- edit events
+- Send newsletters
 
-This project actually contains two projects:
-- A React.js application (i.e., the frontend SPA)
-- A dummy backend API to which the React app can "talk" (to send + fetch data)
+## Deployment
+Deployment of the project is [here](https://event-station-2000.netlify.app/)
 
-You must run "npm install" in both project folders.
+## Project Structure
+This project is divided into two main folders:
 
-Thereafter, you can start the dummy backend API server via "npm start" (inside the "backend-api" folder).
-The React app dev server is then also started via "npm start" (though inside the "react-frontend" folder).
+### backend-api:
 
-You MUST have both servers (backend + frontend) up and running for the projects to work.
+To start the backend server, run npm install followed by npm start inside this folder.
 
-The dummy backend API does not use any external database - instead the dummy data is saved to an "events.json" file inside the project folder.
+### react-frontend:
+
+To run the React app, navigate to this folder, run npm install, and then start the development server with npm start.
+Ensure both the backend and frontend servers are running simultaneously for the project to function correctly.
+
+### Dummy Backend API
+The dummy backend API serves as a simple endpoint for the React app to send and fetch data. It does not use an external database; instead, dummy data is saved to an "events.json" file inside the project folder.
+
+### Open in Browser:
+
+Open your web browser and visit http://localhost:3000 to access the Newsletter React application.
+
+Feel free to explore and contribute to this project. If you encounter any issues or have suggestions, please submit a pull request or open an issue.
